@@ -1,0 +1,36 @@
+site_name: ItemFrameShops Documentation
+site_description: Documentation for the Minecraft plugin `ItemFrameShops`
+nav:
+- Home: index.md
+- Getting Started: gettingstarted.md
+- Commands: commands.md
+- Configuration:
+  - Main: configuration/main.md
+  - Messages: configuration/messages.md
+  - Prices: configuration/prices.md
+  - Translation: configuration/translation.md
+- In Depth:
+  - Reload handling: indepth/reloadhandling.md
+  - Group whitelist: indepth/groupwhitelist.md
+  - Shop layout: indepth/shoplayout.md
+- Changelog: changelog.md
+theme:
+    name: material
+    icon:
+        logo: material/map
+    font:
+        text: Roboto
+        code: Roboto Mono
+    palette:
+        primary: orange
+        accent: orange
+markdown_extensions:
+- admonition
+- codehilite
+- toc:
+    permalink: true
+- pymdownx.emoji:
+    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+google_analytics:
+  - 'UA-131027298-1'
+  - auto
