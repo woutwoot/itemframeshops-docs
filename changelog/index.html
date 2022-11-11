@@ -1,0 +1,1249 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the Minecraft plugin `ItemFrameShops`">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.9">
+    
+    
+      
+        <title>Changelog - ItemFrameShops Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ItemFrameShops Documentation" class="md-header__button md-logo" aria-label="ItemFrameShops Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 19-6-2.11V5l6 2.11M20.5 3h-.16L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 0 0 .5.5c.05 0 .11 0 .16-.03L9 18.9l6 2.1 5.64-1.9c.21-.1.36-.25.36-.48V3.5a.5.5 0 0 0-.5-.5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ItemFrameShops Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ItemFrameShops Documentation" class="md-nav__button md-logo" aria-label="ItemFrameShops Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 19-6-2.11V5l6 2.11M20.5 3h-.16L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 0 0 .5.5c.05 0 .11 0 .16-.03L9 18.9l6 2.1 5.64-1.9c.21-.1.36-.25.36-.48V3.5a.5.5 0 0 0-.5-.5Z"/></svg>
+
+    </a>
+    ItemFrameShops Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gettingstarted/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/" class="md-nav__link">
+        Commands
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Configuration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Configuration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Configuration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/main/" class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/messages/" class="md-nav__link">
+        Messages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/prices/" class="md-nav__link">
+        Prices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/translation/" class="md-nav__link">
+        Translation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          In Depth
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="In Depth" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          In Depth
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indepth/reloadhandling/" class="md-nav__link">
+        Reload handling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indepth/groupwhitelist/" class="md-nav__link">
+        Group whitelist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indepth/shoplayout/" class="md-nav__link">
+        Shop layout
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#651" class="md-nav__link">
+    6.5.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#650" class="md-nav__link">
+    6.5.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#641" class="md-nav__link">
+    6.4.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#640" class="md-nav__link">
+    6.4.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#631" class="md-nav__link">
+    6.3.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#630-beta" class="md-nav__link">
+    6.3.0 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#622" class="md-nav__link">
+    6.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#621" class="md-nav__link">
+    6.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#620" class="md-nav__link">
+    6.2.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611" class="md-nav__link">
+    6.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#610" class="md-nav__link">
+    6.1.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#605" class="md-nav__link">
+    6.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#604" class="md-nav__link">
+    6.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#603-beta" class="md-nav__link">
+    6.0.3 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#602-beta" class="md-nav__link">
+    6.0.2 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#601-beta" class="md-nav__link">
+    6.0.1 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#600-beta" class="md-nav__link">
+    6.0.0 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#512" class="md-nav__link">
+    5.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#511" class="md-nav__link">
+    5.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    5.1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update-considerations" class="md-nav__link">
+    Update considerations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#507" class="md-nav__link">
+    5.0.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#506" class="md-nav__link">
+    5.0.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#505" class="md-nav__link">
+    5.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#504" class="md-nav__link">
+    5.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#503" class="md-nav__link">
+    5.0.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#502" class="md-nav__link">
+    5.0.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#501" class="md-nav__link">
+    5.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#500" class="md-nav__link">
+    5.0.0
+  </a>
+  
+    <nav class="md-nav" aria-label="5.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update-considerations_1" class="md-nav__link">
+    Update considerations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-faq" class="md-nav__link">
+    Update FAQ
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#651" class="md-nav__link">
+    6.5.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#650" class="md-nav__link">
+    6.5.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#641" class="md-nav__link">
+    6.4.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#640" class="md-nav__link">
+    6.4.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#631" class="md-nav__link">
+    6.3.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#630-beta" class="md-nav__link">
+    6.3.0 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#622" class="md-nav__link">
+    6.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#621" class="md-nav__link">
+    6.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#620" class="md-nav__link">
+    6.2.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611" class="md-nav__link">
+    6.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#610" class="md-nav__link">
+    6.1.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#605" class="md-nav__link">
+    6.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#604" class="md-nav__link">
+    6.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#603-beta" class="md-nav__link">
+    6.0.3 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#602-beta" class="md-nav__link">
+    6.0.2 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#601-beta" class="md-nav__link">
+    6.0.1 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#600-beta" class="md-nav__link">
+    6.0.0 (beta)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#512" class="md-nav__link">
+    5.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#511" class="md-nav__link">
+    5.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    5.1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update-considerations" class="md-nav__link">
+    Update considerations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#507" class="md-nav__link">
+    5.0.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#506" class="md-nav__link">
+    5.0.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#505" class="md-nav__link">
+    5.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#504" class="md-nav__link">
+    5.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#503" class="md-nav__link">
+    5.0.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#502" class="md-nav__link">
+    5.0.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#501" class="md-nav__link">
+    5.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#500" class="md-nav__link">
+    5.0.0
+  </a>
+  
+    <nav class="md-nav" aria-label="5.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update-considerations_1" class="md-nav__link">
+    Update considerations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-faq" class="md-nav__link">
+    Update FAQ
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
+<h3 id="651">6.5.1<a class="headerlink" href="#651" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Removed shopMenuTitle feature. (it was no longer working properly) I may end up re-adding it in the future if there 
+is an easier way to do so.</li>
+</ul>
+<h3 id="650">6.5.0<a class="headerlink" href="#650" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Updated to Minecraft 1.18.1 (some prices may still be missing)</li>
+<li>Added additional fail safes to plugin load</li>
+<li>Updated internal dependencies</li>
+<li>Various bug fixes &amp; code improvements</li>
+</ul>
+<h3 id="641">6.4.1<a class="headerlink" href="#641" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed errors related to synchronizeShops setting in case a shop is in an unloaded chunk (Thanks to @AcesGamingUK for 
+sending over his server files so I could debug.) </li>
+</ul>
+<h3 id="640">6.4.0<a class="headerlink" href="#640" title="Permanent link">&para;</a></h3>
+<p>I asked for feedback, and most of your feedback was related to making shops easier to configure. To achieve that goal, 
+I have started to add more GUIs to IFS that can be used to configure shops or teleport to them.</p>
+<ul>
+<li>Added the "IFS wand" - spawn it using the /ifs wand command. When you right click a shop with this wand, the config 
+GUI will pop open</li>
+<li>Changed the /ifs GUI. It can now list (and configure) all shops and will allow you to teleport to shops provided that 
+they are in loaded chunks</li>
+</ul>
+<h3 id="631">6.3.1<a class="headerlink" href="#631" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed issues with recalc and recalcall related to unloaded shops</li>
+<li>Added support for 1.16 Smithing recipes</li>
+<li>Added some important new default prices for 1.16 - not all new items have defaults yet</li>
+<li>This release is still compatible with 1.14 and up</li>
+</ul>
+<h3 id="630-beta">6.3.0 (beta)<a class="headerlink" href="#630-beta" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Updated to work with <strong>1.16.1</strong></li>
+<li>Updated recipe handling code so IFS doesn't error out if it finds a new type of recipe. (in this case Smithing)</li>
+<li>This is a <strong>stable version without price calculation or default prices for items added in 1.16.1</strong> - so I'm releasing it 
+as a beta</li>
+</ul>
+<h3 id="622">6.2.2<a class="headerlink" href="#622" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Sellhand and sellall commands will no longer sell an item if the calculated price is 0</li>
+</ul>
+<h3 id="621">6.2.1<a class="headerlink" href="#621" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Improved error reporting in case there are syntax errors in messages.yml</li>
+<li>Added translation section to the manual with French translations for config files (thanks Zarteck123)</li>
+</ul>
+<h3 id="620">6.2.0<a class="headerlink" href="#620" title="Permanent link">&para;</a></h3>
+<ul>
+<li>IFS now properly supports reloads. No more workarounds. (but advice is still to restart your server)</li>
+<li>Some more of the backend code had been cleaned up in preparation for upcoming content updates. This update should be 
+fine, but please let me know in case you notice any kind of issues.</li>
+</ul>
+<h3 id="611">6.1.1<a class="headerlink" href="#611" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Now compiling with 1.15.2</li>
+<li>Fixed issue with dependency check causing generation of a (mostly) empty configuration file in cases where no economy 
+plugin was found</li>
+<li>Better compatibility with economy plugins that load after IFS (BagOfGold, CMI Economy)</li>
+</ul>
+<h3 id="610">6.1.0<a class="headerlink" href="#610" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed 1.15 compatibility, should still work on 1.14</li>
+<li>Fixed issue with /ifs list, shops that have not been interacted with yet will show up 
+without a location, but display a UUID instead. You can now also provide parameters to the list command to narrow the 
+search like: cached, uncached, topsales, highestprice, leastsales, lowestprice. I did not spend a lot of time on this 
+as I don't think it'll be used often. If you notice bugs, let me know.</li>
+</ul>
+<h3 id="605">6.0.5<a class="headerlink" href="#605" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Minor bug fixed for item names in chat messages (names are now capitalized and custom names can now also be printed)</li>
+</ul>
+<h3 id="604">6.0.4<a class="headerlink" href="#604" title="Permanent link">&para;</a></h3>
+<p>I'm taking 6.X out of beta, because I'm afraid it will otherwise stay in beta forever. Once you upgrade to this version 
+<strong>you will not be able to downgrade</strong> again. <strong>Backup before upgrading</strong>! As for the upcoming functionality (custom 
+discounts per shop) this will be delayed as I'm currently very busy.</p>
+<ul>
+<li>Compiled for 1.14.4 (did not need any code changes)</li>
+<li>Fixed WorldEdit commands not working</li>
+<li>IFS now targets WorldEdit 7.0.1</li>
+<li>Fixed another issue related to shops in unloaded chunks when using the <code>/ifs reload</code> command.</li>
+<li>IFS now limits the amount of transaction logs per shop to 300 in order to make sure the shops file does not grow to 
+  enormous sizes. In the future this will be configurable</li>
+</ul>
+<h3 id="603-beta">6.0.3 (beta)<a class="headerlink" href="#603-beta" title="Permanent link">&para;</a></h3>
+<ul>
+<li>I've removed the <code>convertworth</code> command. In hindsight this was probably not used often and since the price file 
+changes in the new IFS it just makes more sense to get rid of this. EssentialsX should no longer be any sort of 
+dependency. Let me know if you were actually using this, I'll then try to add it back in properly :)</li>
+</ul>
+<h3 id="602-beta">6.0.2 (beta)<a class="headerlink" href="#602-beta" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed error in console on block destroy if a shop is in a chunk that is not loaded.</li>
+<li>Now using essentialsX for convertworth command. Untested!</li>
+<li>Fixed error with command completion</li>
+<li>Fixed issue with IFS and PermissionsEx (due to group autocomplete)</li>
+</ul>
+<h3 id="601-beta">6.0.1 (beta)<a class="headerlink" href="#601-beta" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed shops not loaded if frames were placed in unloaded chunks. Shops should now load as expected.</li>
+</ul>
+<h3 id="600-beta">6.0.0 (beta)<a class="headerlink" href="#600-beta" title="Permanent link">&para;</a></h3>
+<p>Yet another big update for IFS! There are no breaking changes, but once you upgrade to this version <strong>you will not be able
+to downgrade</strong> again. <strong>Backup before upgrading</strong>! </p>
+<p>I had to rush to get this release out because of the fixes it also contains, the rest of the new functionality will be 
+added in the next update. See this as a <strong>beta</strong> release</p>
+<ul>
+<li>Shops can now be placed within the same "block" (like two shops in a corner)</li>
+<li>New format for shop data files: this adds an easier way for me to store extra data along with shops. I'll be able to 
+add more customization for induvidual shops (like discounts) but also keep extra information like logs per shop. 
+This does have a small drawback: shops will load slightly slower (barely noticeable)</li>
+<li>The first of using this new data: transactions logs per shop. This is currently in a very early state and the command
+functionality will be expanded but you can view logs per shop using <code>/ifs transactions</code>, the amount of logs is not 
+limited in any way yet, <strong>if you have a very busy server I suggest waiting for the next update</strong>.</li>
+<li>Fixed <code>/ifs create</code> command as it was checking for a frame being a shop before actually creating a shop, which made no
+sense at all. Not sure when I introduced this issue, but it should be fixed now :)</li>
+<li>Improved command completion.</li>
+<li>Shops are no longer protected from blocks being placed over them to improve performance. Most users are using some 
+other form of protection anyway. Let me know if this is an issue for you. (shops remain protected from explosions and 
+ damage by other entities, the block they are hanging onto can not be removed)</li>
+</ul>
+<h3 id="512">5.1.2<a class="headerlink" href="#512" title="Permanent link">&para;</a></h3>
+<p>I've added the CMIEInjector as a soft dependency for IFS so IFS loads after CMI's Vault Injector. 
+This makes sure that both work together without using a modified Vault version. 
+This should not have any effect for users that do not use CMI.</p>
+<h3 id="511">5.1.1<a class="headerlink" href="#511" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Compiled for Minecraft 1.14.2 (no changes were needed)</li>
+<li>IFS no longer prints an auto-save message to console</li>
+</ul>
+<h3 id="510">5.1.0<a class="headerlink" href="#510" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Updated to Minecraft 1.14: this means IFS now supports price calculation based on stonecutter, campfire, ... recipes. 
+  Unfortunately, brewing recipes are still not available in the Bukkit API and thus IFS can also not handle them.</li>
+<li>Made sure shops are saved whenever shop prices or other settings are modified using the in game commands</li>
+</ul>
+<h4 id="update-considerations">Update considerations<a class="headerlink" href="#update-considerations" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Sadly this is another breaking update. IFS will not start on versions other than 1.14 and newer. I'm planning on 
+  backporting this to 1.13, but due to time constraints 1.13 support is not present in the current release.</li>
+<li>Custom shop menu titles are not supported for 1.14 until I find time to update the NMS code</li>
+</ul>
+<h3 id="507">5.0.7<a class="headerlink" href="#507" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed another issue that made IFS hard depend on WorldEdit</li>
+<li>Added more clear startup messages about versions and detected economy etc</li>
+<li>IFS now refuses to start up on Minecraft versions older than 1.13 since they are not supported for 5.X anyway</li>
+</ul>
+<h3 id="506">5.0.6<a class="headerlink" href="#506" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix issue with <code>/ifs sellhand</code> not taking into account the amount of items in the stack.</li>
+<li>Make sure the API events are also triggered for sell commands</li>
+</ul>
+<h3 id="505">5.0.5<a class="headerlink" href="#505" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New manual now available (work in progress)</li>
+<li>Added a basic AP</li>
+</ul>
+<h3 id="504">5.0.4<a class="headerlink" href="#504" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed a few small typos</li>
+<li>Fixed WorldEdit support - This requires the very latest WorldEdit!
+  You can download it <a href="http://builds.enginehub.org/job/worldedit/last-successful?branch=master">here</a>
+  (you only need worldedit-bukkit)</li>
+</ul>
+<h3 id="503">5.0.3<a class="headerlink" href="#503" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added custom shop menu title support for Minecraft 1.13</li>
+<li>Improved update check performance impact (was barely noticeable, but all small improvements count)</li>
+<li>Add experimental workaround (needs to be enabled in config) to handle <code>/reload</code> automatically. Use at your own risk.
+  This will only work for reloads triggered by the reload command, not when triggered through a plugin.
+  To use it, edit config.yml and add the new setting like in this snippet: (or delete it and start your server to generate a new one)</li>
+</ul>
+<div class="codehilite"><pre><span></span><code><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">...</span><span class="w"></span>
+<span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">plugin</span><span class="p p-Indicator">:</span><span class="w"></span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">...</span><span class="w"></span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">experimental</span><span class="p p-Indicator">:</span><span class="w"></span>
+<span class="w">      </span><span class="c1"># Don&#39;t require /ifs reload after reloading. </span><span class="w"></span>
+<span class="w">      </span><span class="c1"># This is a very hacky workaround, use at your own risk!</span><span class="w"></span>
+<span class="w">      </span><span class="nt">reloadHandling</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"></span>
+</code></pre></div>
+
+<h3 id="502">5.0.2<a class="headerlink" href="#502" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed issues with <code>/ifs reload</code>.</li>
+<li>Updated for 1.13.2</li>
+</ul>
+<h3 id="501">5.0.1<a class="headerlink" href="#501" title="Permanent link">&para;</a></h3>
+<p>Added fuel cost calculation. IFS will use the price it calculates for stick along with the cooking time needed for an item to calculate the cost for smelting that item.
+For example, stick is calculated by IFS to cost 0.5$ (based on log price). Smelting 1 iron ore needs 2 sticks. This means that if iron ore costs 50$, iron ingot now costs 51$.</p>
+<h3 id="500">5.0.0<a class="headerlink" href="#500" title="Permanent link">&para;</a></h3>
+<p>I'm happy to announce the release of the next major IFS update: IFS <code>5.0.0</code>. Quite a few things have changed, so please take the time to read the full changelog and all my notes.</p>
+<ul>
+<li>Updated to be fully compatible with 1.13, dropped support for all other older versions (I will still try to fix important bugs for the latest <code>4.4</code> release if required)</li>
+<li>Updated default prices for 1.13 (please provide feedback as these have not been tested at all!)</li>
+<li>No longer using data values for items, items will only use the id. All obtainable Minecraft items now have a unique ID</li>
+<li>Changed to a new configuration file for default prices that will also allow you to specify a default sell price (has not been tested much yet!)</li>
+<li>Added the ability to use "expressions" in this new default prices file. (see the defaults for examples)</li>
+<li>(Temporarily) removed feature that allows changing of shop titles since it depends on NMS code and I did not have time to update this</li>
+<li>Switched over to the Bukkit API to display the heart particle when selling to/buying from shops. This should now be update proof</li>
+<li>Removed all migration tools. Old configuration files and shop files will no longer be loaded. (applies to <code>config.properties</code>, and <code>shops.properties</code> files)</li>
+<li>Improved performance of various parts of the code</li>
+<li>Complete rewrite of price calculation code. Price calculation should now be more reliable</li>
+<li>Fixed pasting to HasteBin in <code>/ifs debug</code> command</li>
+<li>Stopped using Deprecated methods all over the code. Dropping support for prior versions allowed me to clean up A LOT</li>
+<li>Updated to newest Vault version and adapted code that was using removed APIs</li>
+<li>Added basic tab command completion</li>
+</ul>
+<h4 id="update-considerations_1">Update considerations<a class="headerlink" href="#update-considerations_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Old configuration files and shop files will no longer be loaded. (applies to <code>config.properties</code>, and <code>shops.properties</code> files)</li>
+<li>Old <code>prices.properties</code> file is no longer used. Manually transferring prices will be neccesary as the material ids have changed.</li>
+</ul>
+<h4 id="update-faq">Update FAQ<a class="headerlink" href="#update-faq" title="Permanent link">&para;</a></h4>
+<p>Are you abandoning older versions?</p>
+<ul>
+<li>No. I will still fix bugs in <code>4.4.32</code> if needed. I will NOT be adding or backporting new features to these versions. I'm sorry, but it's just to much work to keep 2 parallel versions updated.</li>
+</ul>
+<p>Why did you make the newest version only support 1.13?</p>
+<ul>
+<li>Simply, to make it easier for me. A large part of the code was becoming more and more bloated just to keep support for older versions.
+  This change made it possible for me to clean up my codebase a lot and should provide better compatibility with future updates as well as better performance in general.</li>
+</ul>
+<p>How about the default prices?</p>
+<ul>
+<li>Keep in mind that when first testing this new version, if a price cannot be found the default price will be returned. A message will be logged in console alerting you about this.</li>
+<li>I currently do not have a good reference to base my prices on since I no longer have my own server or actually play Minecraft.
+  If people are willing to give me access to their server, I might be able to gather some statistics and come up with better default prices.
+  Please let me know if you're willing to help and have a fairly active server. I will send you a plugin that can collect some statistics and help me to figure out good default pricing.
+  The currently pricing is purely based on guesses and wanting to get things done. It is probably very bad. If you can help me with this in any way, let me know.</li>
+<li>I'm thinking about a dynamic pricing feature and doing some experiments with it, but I'm not making any promises regarding this being added eventually.</li>
+</ul>
+<p>A few things are still missing/not completely working in this release:</p>
+<ul>
+<li>Migration tools (converting old configs): because they simply take a lot of time for me to work on and need maintenance. If there is a lot of demand for this I will provide them later.</li>
+<li>Potion recipes and default prices for potions: These depend on metadata. For now, prices for potions need to be set on each individual shop.</li>
+<li>No custom shop inventory titles: This depends on NMS, and that's just something I don't like. Again, if there is a lot of demand for it, I will add it again.</li>
+<li>As mentioned before, the default prices might not be all there, and those that have been specified could be way off. Feel free to contact me and help me with this!</li>
+<li>Some custom recipes can still cause a nasty lag spike and error when trying to create a shop. Please contact me if this happens.</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../indepth/shoplayout/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Shop layout" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Shop layout
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
